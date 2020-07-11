@@ -68,3 +68,6 @@ my_matrix$getInverse()
 cacheSolve(my_matrix)
 cacheSolve(my_matrix)
 my_matrix$getInverse()
+
+
+#### It should be noted that if the matrix provided is a singular matrix, inessence it has value for determinant equal zero (0), then the matrix inverse will not ne computed and an error message will be produced. Hence, getInverse() will produce a logical False response.
